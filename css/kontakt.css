@@ -1,0 +1,24 @@
+#circle {
+  width: 100px;
+  height: 100px;
+  margin-top: 180px;
+  transform-origin: 100% center;
+  position: relative;
+  animation: rotate 5s linear infinite;
+}
+
+#circle:before {
+  content: '';
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  border-left: 10px solid #fdb020;
+  animation: rotate 5s linear reverse infinite;
+  border-radius: 50%;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
