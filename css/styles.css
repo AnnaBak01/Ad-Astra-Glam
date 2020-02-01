@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #13161d;
+  background-color: #151922;
   margin: 0;
 }
 
@@ -17,7 +17,7 @@ a, a:link, a:visited, a:hover, a:active {
 
 .navbar {
   border-bottom: 1px solid #d9d9d9;
-  background-color: #13161d;
+  background-color: #151922;
 }
 
 .navbar .nav-link {
@@ -115,7 +115,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 #loader {
-  background-color: #13161d;
+  background-color: #151922;
   z-index: 1000;
 }
 
@@ -153,7 +153,7 @@ button:hover {
 
 .modal-content {
   margin-top: 7em;
-  background-color: #13161d;
+  background-color: #151922;
 }
 
 .modal-content button {
@@ -166,7 +166,7 @@ button:hover {
 }
 
 .modal-content .modal-header {
-  border-bottom: 1px solid #fdb020;
+  border-bottom: 1px solid #fdb120;
 }
 
 .header1 {
